@@ -19,7 +19,6 @@ C언어 포인터 완벽 정복 및 자기점검
 
 - 정답 :
 			#include <stdio.h>
-			
 			// 두 변수의 값을 바꾸는 함수 (포인터 매개변수 사용)
 			void swap(int* x, int* y) {
 			    int temp = *x; // x가 가리키는 곳의 값을 임시 저장
